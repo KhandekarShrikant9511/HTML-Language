@@ -126,6 +126,13 @@ input[type=text]
     background: none;
     /*textbox ha disable honar*/
     color: white;/*yani textbox mde jo text type krel tyacha color ha white color mde type honar*/
+    text-align: center;
+    /*yani jeva user textbox mde text type krel tr to text textbox chya center mdun type honar*/
+}
+input[type=text]::placeholder
+{
+    text-align: center;
+    color: white;
 }
 input[type=password]
 {
@@ -138,6 +145,13 @@ input[type=password]
     background: none;
     color: white;
     border-bottom: 2px solid white;
+    text-align: center;
+    /*yani jeva user textbox mde text type krel tr to text textbox chya center mdun type honar*/
+}
+input[type=password]::placeholder
+{
+    text-align: center;
+    color: white;
 }
 input[type=submit]
 {
